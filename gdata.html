@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body>
+<form class="mt-8" id="products" action="http://localhost:3000/api" method="post">
+  <label class="ml-10" for="date">date(year)</label>
+  <input class="border-2  border-stone-50" type="text" id="date" name="date">
+  <label for="name">product_name</label>
+  <input class="border-2  border-stone-50" type="text" id="name" name="product_name">
+  <label for="price">price</label>
+  <input class="border-2  border-stone-50" type="text" id="price" name="price">
+  <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" type="submit">Submit</button>
+</form>
+<button class="ml-10 mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="location.href='sdata.html'">顯示資料</button>
+</body>
+</html>
